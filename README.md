@@ -107,8 +107,3 @@ Bayes is not an apt model for fake news classification.
 3. Create a folder called "fake-news" in the same directory as the ipynb files. 
 4. Include train.csv and test.csv in the fake-news folder.
 5. Run the ipynb files using jupyter notebook. 
- 
-## Submitted by
-- [Aditya Chirania](https://github.com/adityachirania)
-
-- [Anusha P. Das](https://github.com/Anusha1790)
