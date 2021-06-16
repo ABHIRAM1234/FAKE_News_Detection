@@ -2,15 +2,13 @@
 
 ## INTRODUCTION
 
-Fake news can cause considerable misunderstandings in society, and the consequences can be catastrophic. It is imperative to differentiate which news is true and which is not. This project leverages the help of machine learning algorithms to perform the classification/prediction of news as true and false. We will depict how good cleaning techniques of data can impact the performance of the fake news classifier in this project. We use text-preprocessing techniques like removing stop-words, lemmatization, tokenization, and vectorization before we feed the data to models. We have fed data to various models and compared and contrasted their performance. These data cleaning techniques fall under Natural Language Processing.
+Fake news causes many problems in society and the consequences are catastrophic. We can look at twitter as an example who are trying very hard to track and label fake news. We will use machine learning algorithms to perform classification or prediction of news being true otr false. We will use NLP(Natural Language Processing which is a branch of AI that deals with interaction between humans and computers using natural language. This project, with the help of machine learning algorithms performs classification/prediction of news as true and false. I will show how good cleaning techniques on the data can impact the performance of the fake news classifier. We use text-preprocessing techniques like removing stop-words, lemmatization, tokenization, and vectorization before we feed the data to the machine learning models. We have fed data to various models and compared their performance. These data cleaning techniques fall under Natural Language Processing.
 
-Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using
-the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable.
+Natural Language Processing (NLP) is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. It is the ability of a computer program to understand human language, spoken and written 
 
 ## DATASET 
-The dataset is a collection of about 20800 news articles. This dataset has been
-compiled and created by the University of Tennessee’s Machine Learning Club, USA.
-This dataset is freely available here : https://www.kaggle.com/c/fake-news/data .
+The dataset is a collection of about 20800 news articles. This dataset has been compiled and created by the University of Tennessee’s Machine Learning Club, USA.
+This dataset is freely available here : https://www.kaggle.com/c/fake-news/data.
 The dataset consists of the following attributes:
 
 - **id**: unique id for a news article
@@ -18,9 +16,11 @@ The dataset consists of the following attributes:
 - **author**: author of the news article
 - **text**: the text of the article; could be incomplete
 - **label**: a label that marks the article as potentially unreliable
-  - 1: False News or Unreliable
-  - 0: True News or reliable
+  - 1: Fake News 
+  - 0: True News
  
+There are 68332444 total words and 742 unique words in the dataset 
+
 ## DATA PRE-PROCESSING
 
 We have applied models with 2 approaches to data cleaning:
