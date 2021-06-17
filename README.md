@@ -97,4 +97,4 @@ with relatively lower values of false negatives (49,44,56,43). Hence, these mode
 2. Download train.csv and test.csv from kaggle (https://www.kaggle.com/c/fake-news/data).
 3. Create a folder called "fake-news" in the same directory as the ipynb files. 
 4. Include train.csv and test.csv in the fake-news folder.
-5. Run the ipynb files using jupyter notebook. 
+5. Run the ipynb files using jupyter notebook.
